@@ -1,0 +1,397 @@
+body{
+    background-color: rgb(26, 0, 139);
+}
+#contenedor{
+    width: 95%;
+    height: 1500px;
+    margin: auto;
+    padding: 0.5%;
+}
+header{
+    height: 10%;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+}
+#logo{
+    width: 10%;
+    height: 85%;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    float:left;
+}
+
+#titulopagina{
+    width: 46%;
+    margin-left: 5%;
+    margin-top: 2%;
+    float: left;
+    font-size: 250%;
+}
+nav{
+    width: 29%;
+    margin-top: 3%;
+    margin-right: 1%;
+    float: right;
+    font-size: 125%;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav img{
+    width: 0%;
+    height: 0%;
+    visibility: hidden;
+}
+#contenido{
+    height: 77%;
+    margin-top: 3%;
+    padding: 0.5%;
+}
+#seccion1{
+    width:30%;
+    height: 96%;
+    padding: 0.5%;
+    border: 2px solid black;
+    margin-left: 0.7%;
+    float: left;
+    background-color: rgb(250, 250, 250);
+    border-radius: 30px;
+}
+#seccion2{
+    width:30%;
+    height: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0.5%;
+    border: 2px solid black;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+#seccion3{
+    width: 30%;
+    height: 74%;
+    padding: 0.5%;
+    border: 2px solid black;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+.titulo{
+    margin-top: 0%;
+    float: left;
+    margin-left: 1em;
+}
+.vermas{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    float: right;
+}
+.caja1{
+    height: 20%;
+    padding: 0.5%;
+    margin-top: 7%;
+    border: 2px solid black;
+    clear: both;
+    border-radius: 30px;
+    background-color: rgb(0, 153, 255);
+}
+.caja2{
+    height: 38.5%;
+    padding: 0.5%;
+    margin-top: 7%;
+    border: 2px solid black;
+    clear: both;
+    border-radius: 30px;
+    background-color: rgb(0, 153, 255);
+}
+.caja3{
+    height: 26%;
+    padding: 0.5%;
+    margin-top: 7%;
+    border: 2px solid black;
+    clear: both;
+    border-radius: 30px;
+    background-color: rgb(0, 153, 255);
+}
+.imgcaja{
+    height: 50%;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 5%;
+    float: left;
+}
+.textcaja{
+    width: 50%;
+    height: 46%;
+    font-size: 150%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-right: 0%;
+    padding: 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+}
+.icono{
+    height: 18%;
+    width: 8%;
+    margin-left: 7%;
+    float: left;
+}
+.icono .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    margin-left: -4%;
+    margin-top: -2%;
+  }
+  .icono:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+.icono img{
+    height: 100%;
+    width: 100%;
+}
+.cierre{
+    width: 3%;
+    height: 8%;
+    margin-right: 1%;
+    margin-top: 2%;
+    float: right;
+}
+.fechahora{
+    font-size: 140%;
+    margin-right: 10%;
+    margin-top: 1%;
+    float: right;
+}
+footer{
+    height: 10%;
+    margin-bottom: 1%;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+footer a img{
+    width: 10%;
+    height: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0.5%;
+}
+.barra{
+    height: 80%;
+    width: 5%;
+    margin-bottom: 0.5%;
+}
+@media only screen and (max-width: 768px){
+    body{
+        margin: 0%;
+    }
+    #contenedor{
+        margin-right: 1%;
+        margin-left: 2%;
+    }
+    header{
+        width: 100%;
+        height: 80px;
+        border-radius: 0%;
+    }
+    #titulopagina{
+        width: 60%;
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    nav{
+        width: 30px;
+        height: 30px;
+        font-size: 0%;
+        margin-left: 0%;
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+    nav img{
+        width: 100%;
+        height: 100%;
+        visibility: visible;
+    }
+    #seccion1{
+        border-radius: 0%;
+        float: left;
+    }
+    .caja1{
+        border-radius: 0%;
+        height: 22%;
+    }
+    #seccion2{
+        border-radius: 0%;
+        float: left;
+    }
+    .caja2{
+        border-radius: 0%;
+        height: 42%;
+    }
+    #seccion3{
+        border-radius: 0%;
+        float: left;
+    }
+    .caja3{
+        border-radius: 0%;
+        height: 28.5%;
+    }
+    .titulo{
+        font-size: 100%;
+    }
+    .vermas{
+        width: 10px;
+        height: 10px;
+    }
+    .imgcaja{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .textcaja{
+        width: 95%;
+        height: 10%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        font-size: 100%;
+    }
+    .cierre{
+        width: 0%;
+        height: 0%;
+        visibility: hidden;
+    }
+    .icono{
+        width: 10%;
+        height: 10%;
+        margin-left: 17%;
+        margin-top: 10%;
+    }
+    .fechahora{
+        margin-top: 1%;
+        margin-bottom: 0%;
+        margin-right: 10%;
+        margin-left: 27%;
+        font-size: 90%;
+    }
+}
+@media only screen and (max-width: 600px){
+    [class*="col-"] {
+        width: 100%;
+    }
+    #contenedor{
+        width: 250%;
+        margin-left: 6%;
+        margin-right: 1%;
+    }
+    header{
+        width: 99%;
+        height: 150px;
+        border-radius: 0%;
+    }
+    #titulopagina{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    nav{
+        width: 40px;
+        height: 40px;
+        font-size: 0%;
+        margin-left: 0%;
+        margin-right: 50px;
+        margin-top: 40px;
+    }
+    nav img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #seccion1{
+        border-radius: 0%;
+        height: 200%;
+        float: left;
+    }
+    .caja1{
+        border-radius: 0%;
+        height: 23%;
+    }
+    #seccion2{
+        border-radius: 0%;
+        height: 103%;
+        float: left;
+    }
+    .caja2{
+        border-radius: 0%;
+        height: 44.7%;
+    }
+    #seccion3{
+        border-radius: 0%;
+        height: 152%;
+        float: left;
+    }
+    .caja3{
+        border-radius: 0%;
+        height: 30.3%;
+    }
+    .titulo{
+        font-size: 150%;
+    }
+    .vermas{
+        width: 20px;
+        height: 20px;
+    }
+    .imgcaja{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .textcaja{
+        width: 95%;
+        height: 13%;
+        margin-left: 0%;
+        margin-bottom: 10%;
+        font-size: 30px;
+    }
+    .cierre{
+        width: 0%;
+        height: 0%;
+        visibility: hidden;
+    }
+    .icono{
+        width: 10%;
+        height: 10%;
+        margin-left: 17%;
+        margin-top: 10%;
+    }
+    .fechahora{
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-right: 10%;
+        margin-left: 24%;
+        font-size: 150%;
+    }
+    footer{
+        width: 100%;
+        height: 10%;
+        margin-top: 1200px;
+    }
+}
+
+
+
